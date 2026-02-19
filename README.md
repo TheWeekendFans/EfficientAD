@@ -6,7 +6,7 @@
 
 > **"Zero Escape is expensive. We optimize for the Trade-off."**
 
-本项目实现了一个面向半导体产线的无监督晶圆缺陷检测系统。基于 **EfficientAD** 架构，引入了 **Multi-scale Feature Distillation** 与 **Synthetic Anomaly Training**，在仅使用良品训练的情况下，实现了对微小纹理缺陷（Grid）的高精度检测。
+本项目实现了一个面向半导体产线的无监督晶圆缺陷检测系统。基于 **EfficientAD** 架构，引入了 **Multi-scale Feature Distillation** 与 **Synthetic Anomaly Training**，在仅使用良品训练的情况下，实现了对微小纹理缺陷（Grid/transistor）的高精度检测。
 
 ## 核心指标 (Key Metrics)
 
@@ -19,7 +19,7 @@
 ## 结果展示 (Results)
 
 ### 1. 产线权衡曲线 (Trade-off Curve)
-我们不追求学术上的“刷分”，而是关注产线实际运行点。下图展示了在不同阈值下漏检率与过杀率的关系：
+下图展示了在不同阈值下漏检率与过杀率的关系：
 
 ![Trade-off Curve](output/tradeoff_curve_grid.png)
 
