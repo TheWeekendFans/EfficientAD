@@ -1,4 +1,4 @@
-# EfficientAD-Industrial: 半导体晶圆表面缺陷检测系统
+# EfficientAD-Industrial(半导体晶圆表面缺陷检测系统)
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-1.12%2B-orange)
@@ -16,7 +16,7 @@
 | **Pixel AUROC** | **97.58%** | 缺陷定位准确度 |
 | **Overkill Rate** | **4.76%** | 在漏检率 (Escape) 控制在 3.5% 时的误杀率 |
 
-## 结果展示 (Results)
+## 结果展示 (Results Show)
 
 ### 1. 产线权衡曲线 (Trade-off Curve)
 下图展示了在不同阈值下漏检率与过杀率的关系：
