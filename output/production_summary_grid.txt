@@ -1,0 +1,15 @@
+class=grid
+zero_escape_threshold=1.259675
+zero_escape_overkill=90.4762%
+adaptive_threshold=5.205584
+adaptive_escape=21.0526%
+adaptive_overkill=0.0000%
+near_zero_escape_threshold=2.730032
+near_zero_escape=1.7544%
+near_zero_overkill=14.2857%
+ok_band_threshold=3.443767
+ok_band_escape=3.5088%
+ok_band_overkill=4.7619%
+relaxed_threshold=3.741157
+relaxed_escape=3.5088%
+relaxed_overkill=0.0000%

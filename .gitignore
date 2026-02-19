@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.env
+
+# Data
+grid/
+transistor/
+dataset/
+
+# Models & Checkpoints
+output/models/
+*.pth
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Keep visualization results but ignore other outputs if needed
+# output/*
+# !output/vis/
+# !output/tradeoff_curve.png
