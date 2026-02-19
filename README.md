@@ -1,4 +1,4 @@
-# EfficientAD-Industrial(基于EfficientAD的无监督半导体晶圆表面缺陷检测系统 )
+# 基于改进 EfficientAD 的半导体晶圆无监督缺陷检测系统   
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-1.12%2B-orange)
